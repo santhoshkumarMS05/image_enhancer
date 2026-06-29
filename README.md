@@ -47,6 +47,16 @@ This project includes:
 
 <img src="frontend/src/assets/request%20flow.png" alt="Request flow diagram" width="900" height="500" />
 
+## Demo Screenshots
+
+Here are a few app screenshots showcasing the experience:
+
+<div align="center">
+  <img src="frontend/src/assets/demo1.png" alt="Demo screenshot 1" width="280" />
+  <img src="frontend/src/assets/demo2.png" alt="Demo screenshot 2" width="280" />
+  <img src="frontend/src/assets/demo3.png" alt="Demo screenshot 3" width="280" />
+</div>
+
 ## How It Works
 
 The enhancement process follows these steps:
