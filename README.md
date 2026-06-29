@@ -41,34 +41,11 @@ This project includes:
 
 ## Architecture
 
-```mermaid
-flowchart LR
-    User[User] --> Frontend[React Frontend]
-    Frontend --> API[Flask API]
-    API --> DB[(PostgreSQL)]
-    API --> Storage[(uploads / enhanced folders)]
-    API --> Engine[Image Enhancement Engine]
-    Engine --> Output[Enhanced Image + Analysis]
-```
+<img src="frontend/src/assets/architecture.png" alt="Architecture diagram" width="900" height="500" />
 
 ## Request Flow
 
-```mermaid
-sequenceDiagram
-    participant U as User
-    participant F as Frontend
-    participant B as Flask Backend
-    participant E as Enhancement Engine
-    participant D as PostgreSQL
-
-    U->>F: Upload image / sign in
-    F->>B: Send request
-    B->>E: Analyze and enhance image
-    E-->>B: Analysis + recommendations + enhancements
-    B->>D: Save image metadata
-    B-->>F: Return image URLs and analysis
-    F-->>U: Show results and comparison
-```
+<img src="frontend/src/assets/request%20flow.png" alt="Request flow diagram" width="900" height="500" />
 
 ## How It Works
 
